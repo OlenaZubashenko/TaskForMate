@@ -8,6 +8,7 @@ $bgcolor: #c9dce6;
 
 .header{
     @include indents();
+    font-family: $primary-font;
  background-color: #f1f1f0; 
   &__top {
      display: flex;
@@ -114,6 +115,7 @@ $bgcolor: #c9dce6;
 .content {
     @include indents();
     background-color:  #d7e7ef;
+    font-family: $primary-font;
     &__title {
         font-size: 25px;
         color: #7da0b3;
@@ -121,8 +123,115 @@ $bgcolor: #c9dce6;
         font-style: italic;
     }
     &__discription {
-        display: flex;
+        display: flex;   
         
+        h2 {
+            color: $primary-color;
+            font-size: 17px; 
+            img {
+                padding-right: 15px;
+                padding-top: 10px;
+            } 
+        } 
+        &__text {
+            color: $primary-color;
+            font-size: 13px;
+        }
+        .column {
+            padding-right: 40px;
+            padding-bottom: 60px;
+        }
+    }
+    &__reviews-contacts {
+        display: flex;
+      .content__reviews{
+          display: flex;
+          flex-direction: column;
+          width: 60%;
+          margin-right: 40px;
+          background-color: $bgcolor; 
+          h2 {
+            color: $primary-color;     
+               }            
+            }
+            .content__reviews-wrapper {
+                display: flex;
+                justify-content: space-between;
+                font-style: italic;
+                font-size: 12px;
+                line-height: 25px;
+                color: $primary-color;
+                .author {
+                    font-style: normal;
+                    font-weight: 600;
+                }
+                .reviews-column {
+                    padding: 0 10px 0 10px;
+                }
+            }
+    } 
+    &__contacts {
+        color: $primary-color;
+        line-height: 30px;
+       .email{
+        margin-right: -5px;
+        width: 160px;
+        height: 29px;
+        }
+        .button {
+        width: 65px; 
+        height: 35px; 
+        background-color: #ffffff;
+        background-image: linear-gradient(to top, #9cbdce 0%, #c3dae6 100%);
+        color: $primary-color;
+        margin-bottom: 20px;
+        cursor: pointer;
+        &:hover {
+            opacity: .8;
+        }
         
     }
+   img{
+       margin-right: 10px;
+       }
+  } 
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 240px 20px 240px;  
+    color: $primary-color;
+    font-family: $primary-font;
+    background-color: $bgcolor;
+    &__social{
+        display: flex;
+        margin-top: 20px;
+    }
+ .social-fb {
+     display: block;
+     width:16px;
+     height: 16px;
+     background-image: url(img/Facebook.png);
+     margin-right: 10px;
+ } 
+ .social-flick {
+    display: block;
+    width:16px;
+    height: 16px;
+    background-image: url(img/Flickr.png);
+    margin-right: 10px;
+ }
+ .social-twitter{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(img/Twitter.png);
+    margin-right: 10px;
+ }
+ .social-tumbl{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(img/Tumblr.png);
+ }
 }

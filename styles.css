@@ -1,5 +1,6 @@
 .header {
   padding: 45px 240px 45px 240px;
+  font-family: "Roboto", sans-serif;
   background-color: #f1f1f0; }
   .header__top {
     display: flex;
@@ -85,7 +86,8 @@
 
 .content {
   padding: 45px 240px 45px 240px;
-  background-color: #d7e7ef; }
+  background-color: #d7e7ef;
+  font-family: "Roboto", sans-serif; }
   .content__title {
     font-size: 25px;
     color: #7da0b3;
@@ -93,3 +95,90 @@
     font-style: italic; }
   .content__discription {
     display: flex; }
+    .content__discription h2 {
+      color: #456474;
+      font-size: 17px; }
+      .content__discription h2 img {
+        padding-right: 15px;
+        padding-top: 10px; }
+    .content__discription__text {
+      color: #456474;
+      font-size: 13px; }
+    .content__discription .column {
+      padding-right: 40px;
+      padding-bottom: 60px; }
+  .content__reviews-contacts {
+    display: flex; }
+    .content__reviews-contacts .content__reviews {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      margin-right: 40px;
+      background-color: #c9dce6; }
+      .content__reviews-contacts .content__reviews h2 {
+        color: #456474; }
+    .content__reviews-contacts .content__reviews-wrapper {
+      display: flex;
+      justify-content: space-between;
+      font-style: italic;
+      font-size: 12px;
+      line-height: 25px;
+      color: #456474; }
+      .content__reviews-contacts .content__reviews-wrapper .author {
+        font-style: normal;
+        font-weight: 600; }
+      .content__reviews-contacts .content__reviews-wrapper .reviews-column {
+        padding: 0 10px 0 10px; }
+  .content__contacts {
+    color: #456474;
+    line-height: 30px; }
+    .content__contacts .email {
+      margin-right: -5px;
+      width: 160px;
+      height: 29px; }
+    .content__contacts .button {
+      width: 65px;
+      height: 35px;
+      background-color: #ffffff;
+      background-image: linear-gradient(to top, #9cbdce 0%, #c3dae6 100%);
+      color: #456474;
+      margin-bottom: 20px;
+      cursor: pointer; }
+      .content__contacts .button:hover {
+        opacity: .8; }
+    .content__contacts img {
+      margin-right: 10px; }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 240px 20px 240px;
+  color: #456474;
+  font-family: "Roboto", sans-serif;
+  background-color: #c9dce6; }
+  .footer__social {
+    display: flex;
+    margin-top: 20px; }
+  .footer .social-fb {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(img/Facebook.png);
+    margin-right: 10px; }
+  .footer .social-flick {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(img/Flickr.png);
+    margin-right: 10px; }
+  .footer .social-twitter {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(img/Twitter.png);
+    margin-right: 10px; }
+  .footer .social-tumbl {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(img/Tumblr.png); }
