@@ -1,0 +1,95 @@
+.header {
+  padding: 45px 240px 45px 240px;
+  background-color: #f1f1f0; }
+  .header__top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e7e7e2; }
+    .header__top .phone {
+      color: #505050;
+      font-size: 18px;
+      font-weight: 400;
+      padding-top: 20px; }
+      .header__top .phone span {
+        color: #a5a5a5; }
+  .header__banner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px; }
+    .header__banner img {
+      border: 10px solid white;
+      box-shadow: 1px 1px 2px #a5a5a5; }
+    .header__banner__discription {
+      display: flex;
+      flex-direction: column;
+      padding-left: 30px; }
+      .header__banner__discription h1 {
+        color: #504f4f; }
+      .header__banner__discription h3 {
+        color: #505050;
+        font-size: 14px;
+        line-height: 22px; }
+      .header__banner__discription__list {
+        list-style: none;
+        padding-left: 20px;
+        line-height: 22px;
+        margin-bottom: 25px; }
+        .header__banner__discription__list li {
+          position: relative;
+          color: #505050; }
+        .header__banner__discription__list li::before {
+          content: '';
+          position: absolute;
+          width: 5px;
+          height: 5px;
+          background-color: #505050;
+          top: 10px;
+          left: -15px; }
+      .header__banner__discription a {
+        width: 120px;
+        text-align: center;
+        border: 1px solid #a9bfd2;
+        background-color: #ffffff;
+        background-image: linear-gradient(to top, #9cbdce 0%, #c3dae6 100%);
+        text-decoration: none;
+        color: #505050;
+        padding: 10px 19px;
+        text-transform: uppercase; }
+      .header__banner__discription a:hover {
+        opacity: .8; }
+
+.gallery {
+  padding: 45px 240px 45px 240px;
+  background-color: #c9dce6;
+  display: flex;
+  justify-content: space-between; }
+  .gallery__last {
+    font-size: 0;
+    width: 16px;
+    height: 30px;
+    background-image: url(img/last.png);
+    background-color: #c9dce6;
+    border: none;
+    margin-top: 35px; }
+  .gallery__next {
+    font-size: 0;
+    width: 16px;
+    height: 30px;
+    background-image: url(img/next.png);
+    background-color: #c9dce6;
+    border: none;
+    margin-top: 35px; }
+  .gallery__img {
+    border: 5px solid white;
+    box-shadow: 1px 1px 2px #a5a5a5; }
+
+.content {
+  padding: 45px 240px 45px 240px;
+  background-color: #d7e7ef; }
+  .content__title {
+    font-size: 25px;
+    color: #7da0b3;
+    line-height: 35px;
+    font-style: italic; }
+  .content__discription {
+    display: flex; }
