@@ -6,6 +6,8 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #e7e7e2; }
+    .header__top figure {
+      margin-left: 0; }
     .header__top .phone {
       color: #505050;
       font-size: 18px;
@@ -17,6 +19,8 @@
     display: flex;
     justify-content: space-between;
     padding-top: 40px; }
+    .header__banner figure {
+      margin: 0; }
     .header__banner img {
       border: 10px solid white;
       box-shadow: 1px 1px 2px #a5a5a5; }
@@ -116,7 +120,8 @@
       margin-right: 40px;
       background-color: #c9dce6; }
       .content__reviews-contacts .content__reviews h2 {
-        color: #456474; }
+        color: #456474;
+        padding: 10px; }
     .content__reviews-contacts .content__reviews-wrapper {
       display: flex;
       justify-content: space-between;
